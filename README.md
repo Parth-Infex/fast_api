@@ -129,7 +129,7 @@ $ pip install "uvicorn[standard]"
 
 ### Create it
 
-* Create a file `main.py` with:
+* Create a file `app.py` with:
 
 ```Python
 from typing import Union
@@ -185,7 +185,7 @@ Run the server with:
 <div class="termy">
 
 ```console
-$ uvicorn main:app --reload
+$ uvicorn app:app --reload
 
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process [28720]
